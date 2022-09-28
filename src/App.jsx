@@ -11,8 +11,8 @@ const App = () => {
     return (
         <Fragment>
             <div className='section-container'>
-                <Navbar/>
                 <Home/>
+                <Navbar/>
                 <Experience/>
                 <Formation/>
                 <Skills/>

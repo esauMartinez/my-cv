@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import { AiOutlineMenu } from 'react-icons/ai'
 import './Navbar.css'
 
@@ -29,7 +28,6 @@ const Navbar = () => {
     });
 
     const showMenu = () => {
-        console.log('test')
         if (isShowSidenav) {
             document.querySelector('.my-navbar').classList.add('my-navbar-movil')
             document.querySelector('.my-navbar').classList.remove('my-navbar')
@@ -43,6 +41,10 @@ const Navbar = () => {
             document.querySelectorAll('.my-navbar-link').forEach(x => {
                 x.classList.remove('my-navbar-link')
             })
+
+            document.body.style.overflow = 'hidden'
+
+            document.querySelector('.back-navbar').style.display = 'block'
         } else {
             document.querySelector('.my-navbar-movil').classList.add('my-navbar')
             document.querySelector('.my-navbar-movil').classList.remove('my-navbar-movil')
@@ -56,6 +58,9 @@ const Navbar = () => {
             document.querySelectorAll('.my-navbar-link-movil').forEach(x => {
                 x.classList.remove('my-navbar-link-movil')
             })
+
+            document.body.style.overflow = 'auto'
+            document.querySelector('.back-navbar').style.display = 'none'
         }
 
         setIsShowSidenav(!isShowSidenav)
@@ -64,6 +69,7 @@ const Navbar = () => {
     return (
         <Fragment>            
             <div className='my-navbar'>
+
                 <div className='container-fluid d-flex justify-content-end'>
                     <button className='my-navbar-toggler' onClick={() => showMenu()}>
                         <AiOutlineMenu />
@@ -82,6 +88,8 @@ const Navbar = () => {
                     }
                 </ul>
             </div>
+            
+            <div className='back-navbar'></div>
         </Fragment>
     )
 }
