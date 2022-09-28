@@ -21,10 +21,12 @@ const Home = () => {
         </div>
         <div 
           className='icon-slide animate__animated animate__bounce animate__infinite'>
-          <img 
-            src={iconSlide} 
-            alt="slide down"             
-          />
+          <a href={"#section-experience"}>
+            <img 
+              src={iconSlide} 
+              alt="slide down"             
+            />
+          </a>
         </div>
       </div>
     </Fragment>
