@@ -1,0 +1,69 @@
+.presentation {
+    position: relative; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.presentation::before {    
+  content: "";
+  background-image: url('../../../public/computer.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+  background-attachment: fixed;
+}
+
+.title {
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate__animated.animate__slideInUp {
+  --animate-duration: 3s;
+}
+
+.title h1 {
+  font-size: 4em !important;
+  font-weight: 500 !important;
+}
+
+.title h2 {
+  font-size: 2em !important;
+}
+
+.icon-slide {
+  position: absolute;
+  bottom: 10px;
+  z-index: 1001;
+  border-radius: 50%;
+  border: 1px solid rgb(136, 136, 136);
+  padding: 5px;
+}
+
+.icon-slide img {
+  width: 60px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .title h1 {
+    font-size: 2em !important;
+  }
+
+  .title h2 {
+    font-size: 1em !important;
+  }
+
+  .icon-slide img {
+    width: 40px !important;
+  }
+}

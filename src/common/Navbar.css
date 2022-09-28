@@ -1,0 +1,59 @@
+.my-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1003;
+    display: flex;
+    transition: 0.5s;
+}
+
+.my-navbar-toggler {
+    display: none;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: 0;
+    background-color: transparent;
+}
+
+.my-navbar-collapse {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.my-navbar-list {
+    display: flex;
+}
+
+.my-navbar-link {
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px 15px;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+.my-navbar-link:hover {
+    background-color: rgb(147, 93, 197);
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .my-navbar-collapse {
+        display: none;
+    }
+
+    .my-navbar-toggler {
+        display: block;
+    }
+
+    .my-navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
