@@ -14,19 +14,58 @@ const Navbar = () => {
     ]
 
     document.addEventListener('scroll', (e) => {
-        if (window.scrollY !== 0) {
-            console.log(window.scrollY)
-            document.querySelector('.my-navbar').style.backgroundColor = 'rgb(61, 61, 61) !important';
-        } else {
-            document.querySelector('.my-navbar').style.backgroundColor = '';
+        const pageWidth  = document.documentElement.scrollWidth;
+        if (pageWidth >= 900) {
+            if (window.scrollY !== 0) {
+                document
+                    .querySelector('.my-navbar')
+                    .style.backgroundColor = '#9090906e';
+            } else {
+                document
+                    .querySelector('.my-navbar')
+                    .style.backgroundColor = '';
+            }
         }
     });
+
+    const showMenu = () => {
+        console.log('test')
+        if (isShowSidenav) {
+            document.querySelector('.my-navbar').classList.add('my-navbar-movil')
+            document.querySelector('.my-navbar').classList.remove('my-navbar')
+            document.querySelector('.my-navbar-collapse').classList.add('my-navbar-collapse-movil')
+            document.querySelector('.my-navbar-collapse').classList.remove('my-navbar-collapse')
+
+            document.querySelectorAll('.my-navbar-link').forEach(x => {
+                x.classList.add('my-navbar-link-movil')
+            })
+
+            document.querySelectorAll('.my-navbar-link').forEach(x => {
+                x.classList.remove('my-navbar-link')
+            })
+        } else {
+            document.querySelector('.my-navbar-movil').classList.add('my-navbar')
+            document.querySelector('.my-navbar-movil').classList.remove('my-navbar-movil')
+            document.querySelector('.my-navbar-collapse-movil').classList.add('my-navbar-collapse')
+            document.querySelector('.my-navbar-collapse-movil').classList.remove('my-navbar-collapse-movil')
+            
+            document.querySelectorAll('.my-navbar-link-movil').forEach(x => {
+                x.classList.add('my-navbar-link')
+            })
+
+            document.querySelectorAll('.my-navbar-link-movil').forEach(x => {
+                x.classList.remove('my-navbar-link-movil')
+            })
+        }
+
+        setIsShowSidenav(!isShowSidenav)
+    }
 
     return (
         <Fragment>            
             <div className='my-navbar'>
                 <div className='container-fluid d-flex justify-content-end'>
-                    <button className='my-navbar-toggler'>
+                    <button className='my-navbar-toggler' onClick={() => showMenu()}>
                         <AiOutlineMenu />
                     </button>
                 </div>
