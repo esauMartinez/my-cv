@@ -12,6 +12,14 @@ const Navbar = () => {
         { id:'5', name: 'Contacto', path: '#section-contact' },
     ]
 
+    document.addEventListener('scroll', (e) => {
+        if (window.scrollY !== 0) {
+            document.querySelector('.my-navbar').style.backgroundColor = 'rgb(52 51 51)'
+        } else {
+            document.querySelector('.my-navbar').style.backgroundColor = ''
+        }
+    });
+
     const showMenu = () => {
         if (isShowSidenav) {
             document.querySelector('.full-menu').style.display = 'block'
