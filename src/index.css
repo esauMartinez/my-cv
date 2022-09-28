@@ -36,5 +36,23 @@ body {
   min-height: 100vh;
 }
 
+.swip-up {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  display: none;
+}
 
-
+.swip-up a {
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(1, 167, 18);
+  color: #000;
+}
