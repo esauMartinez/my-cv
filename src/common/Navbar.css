@@ -1,11 +1,10 @@
 .my-navbar {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
     z-index: 1003;
-    display: flex;
     transition: 0.5s;
+    background-color: red;
 }
 
 .my-navbar-toggler {
