@@ -9,7 +9,7 @@
 
 .presentation::before {    
   content: "";
-  background-image: url('../../../public/computer.jpg');
+  background-image: url('../../../public/programmer.jpg');
   background-size: cover;
   position: absolute;
   top: 0px;
