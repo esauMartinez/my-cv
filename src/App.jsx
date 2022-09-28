@@ -19,7 +19,7 @@ const App = () => {
 
     return (
         <Fragment>
-            <div className='section-container'>
+            {/* <div className='section-container'> */}
                 <Home/>
                 <Navbar/>
                 <Experience/>
@@ -27,7 +27,7 @@ const App = () => {
                 <Skills/>
                 <Contact/>
                 {/* <Footer/> */}
-            </div>
+            {/* </div> */}
 
 
             <div className='swip-up'>
