@@ -9,7 +9,7 @@
 
 .presentation::before {    
   content: "";
-  background-image: url('../../../public/programmer.jpg');
+  background-image: url('../../../public/computer.jpg');
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -38,7 +38,8 @@
 }
 
 .title h2 {
-  font-size: 2em !important;
+  font-size: 3em !important;
+  color: rgb(1, 167, 18);
 }
 
 .icon-slide {
@@ -46,13 +47,20 @@
   bottom: 140px;
   z-index: 1001;
   border-radius: 50%;
-  border: 1px solid rgb(136, 136, 136);
+  border: 1px solid rgb(1, 167, 18) !important;
   padding: 5px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
 }
 
-.icon-slide img {
-  width: 60px !important;
+.icon-slide a {
+  color: rgb(1, 167, 18) !important;
 }
+
 
 @media only screen and (max-width: 900px) {
   .title h1 {

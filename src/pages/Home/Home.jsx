@@ -1,7 +1,7 @@
 import React from 'react'
 import { Fragment } from 'react'
 import './Home.css'
-import iconSlide from '../../../public/image.png'
+import { BsChevronDoubleDown } from 'react-icons/bs'
 
 const Home = () => {
   return (
@@ -22,10 +22,7 @@ const Home = () => {
         <div 
           className='icon-slide animate__animated animate__pulse animate__infinite'>
           <a href={"#section-experience"}>
-            <img 
-              src={iconSlide} 
-              alt="slide down"             
-            />
+            <BsChevronDoubleDown/>
           </a>
         </div>
       </div>

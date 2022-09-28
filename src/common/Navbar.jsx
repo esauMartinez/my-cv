@@ -12,20 +12,20 @@ const Navbar = () => {
         { id:'5', name: 'Contacto', path: '#section-contact' },
     ]
 
-    document.addEventListener('scroll', (e) => {
-        const pageWidth  = document.documentElement.scrollWidth;
-        if (pageWidth >= 900) {
-            if (window.scrollY !== 0) {
-                document
-                    .querySelector('.my-navbar')
-                    .style.backgroundColor = '#9090906e';
-            } else {
-                document
-                    .querySelector('.my-navbar')
-                    .style.backgroundColor = '';
-            }
-        }
-    });
+    // document.addEventListener('scroll', (e) => {
+    //     const pageWidth  = document.documentElement.scrollWidth;
+    //     if (pageWidth >= 900) {
+    //         if (window.scrollY !== 0) {
+    //             document
+    //                 .querySelector('.my-navbar')
+    //                 .style.backgroundColor = '#9090906e';
+    //         } else {
+    //             document
+    //                 .querySelector('.my-navbar')
+    //                 .style.backgroundColor = '';
+    //         }
+    //     }
+    // });
 
     const showMenu = () => {
         if (isShowSidenav) {
@@ -80,7 +80,7 @@ const Navbar = () => {
                     {
                         paths.map(({ id, name, path }) => (
                             <li className='my-navbar-list' key={id}>
-                                <a className='my-navbar-link' href={path} onClick={ () => showMenu() }>
+                                <a className='my-navbar-link' href={path}>
                                     { name }
                                 </a>
                             </li>
