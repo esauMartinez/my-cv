@@ -44,7 +44,19 @@ const Navbar = () => {
                 </button>
             </div>
             
-            <div className='full-menu'></div>
+            <div className='full-menu'>
+                <ul className='my-menu-full'>
+                    {
+                        paths.map(({ id, name, path }) => (
+                            <li key={id}>
+                                <a href={path} onClick={() => {showMenu()}}>
+                                    { name }
+                                </a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
         </Fragment>
     )
 }
