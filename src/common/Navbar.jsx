@@ -80,7 +80,7 @@ const Navbar = () => {
                     {
                         paths.map(({ id, name, path }) => (
                             <li className='my-navbar-list' key={id}>
-                                <a className='my-navbar-link' href={path}>
+                                <a className='my-navbar-link' href={path} onClick={ () => showMenu() }>
                                     { name }
                                 </a>
                             </li>
