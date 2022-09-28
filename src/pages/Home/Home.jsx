@@ -20,7 +20,7 @@ const Home = () => {
           </h2>
         </div>
         <div 
-          className='icon-slide animate__animated animate__bounce animate__infinite'>
+          className='icon-slide animate__animated animate__pulse animate__infinite'>
           <a href={"#section-experience"}>
             <img 
               src={iconSlide} 
