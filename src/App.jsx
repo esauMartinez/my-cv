@@ -10,7 +10,7 @@ import { BsChevronDoubleUp } from 'react-icons/bs'
 
 const App = () => {
     document.addEventListener('scroll', (e) => {
-        if (window.scrollY >= 15) {
+        if (window.scrollY >= 200) {
             document.querySelector('.swip-up').style.display = 'block'
         } else {
             document.querySelector('.swip-up').style.display = 'none'
