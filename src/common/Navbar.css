@@ -41,8 +41,6 @@
     background-color: rgb(147, 93, 197);
 }
 
-
-
 @media only screen and (max-width: 900px) {
     .my-navbar-collapse {
         display: none;
