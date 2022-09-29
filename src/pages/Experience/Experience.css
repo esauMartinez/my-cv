@@ -1,0 +1,18 @@
+.my-card {
+    background-color: rgb(52 51 51) !important;
+    width: 100%;
+    min-height: 100px;
+    padding: 15px 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.my-card-header  {
+    color: rgb(1, 167, 18)  !important;
+    text-align: center;
+}
+
+.my-card-body {
+    text-align: justify;
+    font-size: 1.2rem;
+}

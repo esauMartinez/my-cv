@@ -6,22 +6,22 @@ const Contact = () => {
         <div className='section' id='section-contact'>
             <div className='container mt-5'>
                 <h2 className='text-center mb-3'>Contacto</h2>
-                <form action=''>
+                <form>
                     <div className='row'>
                         <div className='mb-3'>
                             <label className='form-label'>Nombre</label>
-                            <input type="email" className='form-control' placeholder='nombre'/>
+                            <input type="email" className='form-control' placeholder='nombre' required/>
                         </div>
                         <div className='mb-3'>
                             <label className='form-label'>Correo</label>
-                            <input type="email" className='form-control' placeholder="email@example.com" />
+                            <input type="email" className='form-control' placeholder="email@example.com" required/>
                         </div>
                         <div className='mb-3'>
                             <label  className='form-label'>Mensaje</label>
-                            <textarea className='form-control' rows="5"></textarea>
+                            <textarea className='form-control' rows="5" required></textarea>
                         </div>
                         <div className='mb-3 d-flex justify-content-end'>
-                            <button className='btn btn-primary w-25'>Enviar</button>
+                            <button className='btn my-btn-primary'>Enviar</button>
                         </div>
                     </div>
                 </form>
