@@ -22,29 +22,7 @@ const Experience = () => {
             se creó un API escrita en NodeJs para el consumo de un servicio de GPS 
             y envio de datos en tiempo real y se usó Angular para el front-end y 
             Bootstrap 4 para el diseño de las vistas`
-        },
-        {
-            id: 3,
-            title: 'TSM Connect',
-            date: 'jun 2018 — actualidad',
-            description: `Desarrollo de un sistema web de logística en el cual se implementó C# 
-            para el consumo de una base de datos con el motor SQL server, tambien 
-            se creó un API escrita en NodeJs para el consumo de un servicio de GPS 
-            y envio de datos en tiempo real y se usó Angular para el front-end y 
-            Bootstrap 4 para el diseño de las vistas`
-        },
-        {
-            id: 4,
-            title: 'TSM Connect',
-            date: 'jun 2018 — actualidad',
-            description: `Desarrollo de un sistema web de logística en el cual se implementó C# 
-            para el consumo de una base de datos con el motor SQL server, tambien 
-            se creó un API escrita en NodeJs para el consumo de un servicio de GPS 
-            y envio de datos en tiempo real y se usó Angular para el front-end y 
-            Bootstrap 4 para el diseño de las vistas`
         }
-
-
     ]
 
 
@@ -52,6 +30,7 @@ const Experience = () => {
     return (
         <div className='section' id='section-experience'>
             <div className='container'>
+                <h2 className='text-center mt-4'>Experiencia</h2>
                 <div className='row'>
                     {
                         experiencia.map(({ id, title, date, description }) => (
