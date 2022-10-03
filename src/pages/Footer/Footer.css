@@ -1,4 +1,27 @@
 .footer {
-    height: 200px;
-    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(52 51 51);
+}
+
+
+.left-footer {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-footer p {
+    background-color: rgb(1, 167, 18);
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px 0px !important;
+    color: rgb(52 51 51);
 }
