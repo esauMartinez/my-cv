@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='footer'>
 
             <div className='left-footer'>
-                <h5>JOSE ESAU MARTINEZ CONTRERAS</h5>
+                <h5 className='name'>JOSE ESAU MARTINEZ CONTRERAS</h5>
                 <h6>&copy; Derechos reservados</h6>
             </div>
 
