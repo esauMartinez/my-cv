@@ -23,10 +23,10 @@ const App = () => {
                 <Home/>
                 <Navbar/>
                 <Experience/>
-                <Formation/>
+                {/* <Formation/> */}
                 <Skills/>
                 <Contact/>
-                {/* <Footer/> */}
+                <Footer/>
             {/* </div> */}
 
 

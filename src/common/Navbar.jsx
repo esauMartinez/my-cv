@@ -7,7 +7,7 @@ const Navbar = () => {
     const paths = [
         { id:'1', name: 'Inicio', path: '#section-home' },
         { id:'2', name: 'Experiencia', path: '#section-experience' },
-        { id:'3', name: 'Formacion', path: '#section-formation' },
+        // { id:'3', name: 'Formacion', path: '#section-formation' },
         { id:'4', name: 'Competencias', path: '#section-skills' },
         { id:'5', name: 'Contacto', path: '#section-contact' },
     ]
