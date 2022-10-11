@@ -1,6 +1,6 @@
 
-import nodejs from '../../../public/node.png'
-import vuejs from '../../../public/vue.png'
+import node from '../../../public/node.png'
+import vue from '../../../public/vue.png'
 import html from '../../../public/html.png'
 import angular from '../../../public/angular.png'
 import bootstrap from '../../../public/bootstrap.png'
@@ -24,8 +24,8 @@ export const Skills = () => {
     const skills = [
         { id: 1, item: angular },
         { id: 2, item: bootstrap},
-        { id: 3, item: nodejs },
-        { id: 4, item: vuejs },
+        { id: 3, item: node },
+        { id: 4, item: vue },
         { id: 5, item: html },
         { id: 6, item: css },
         { id: 7, item: docker },
