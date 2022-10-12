@@ -31,7 +31,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="tl-item">
-                <div className="tl-bg" style={{'background-image': 'url(../../../public/support.jpg)'}}></div>
+                <div className="tl-bg" id='tl-bg-support'></div>
                 <div className="tl-year">
                     <p className="f2 heading--sanSerif">Soporte</p>
                 </div>
@@ -43,7 +43,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="tl-item">
-                <div className="tl-bg" style={{'background-image': 'url(../../../public/cctv.jpg)'}}></div>
+                <div className="tl-bg" id='tl-bg-instalation'></div>
                 <div className="tl-year">
                     <p className="f2 heading--sanSerif">Instalación</p>
                 </div>
