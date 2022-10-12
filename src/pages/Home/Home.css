@@ -45,8 +45,8 @@
   font-size: 2rem;
   margin: 0 auto;
 
-  border-right: 0.15em solid rgb(1, 167, 18);
-  animation: typing 4s steps(38) 2s 1 normal both, blink 1s steps(1) infinite;
+  border-right: 0.15em solid hsl(214deg 100% 65%);
+  animation: typing 2s steps(38) 2s 1 normal both, blink 1s steps(1) infinite;
 }
 
 @keyframes typing {
@@ -54,9 +54,10 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 50%;
   }
 }
+
 @keyframes blink {
   50% {
     border-color: transparent;
@@ -65,7 +66,7 @@
 
 .title h2 {
   font-size: 3em !important;
-  color: rgb(1, 167, 18);
+  color: hsl(214deg 100% 65%);
 }
 
 .icon-slide {
@@ -73,7 +74,7 @@
   bottom: 10px;
   z-index: 1001;
   border-radius: 50%;
-  border: 1px solid rgb(1, 167, 18) !important;
+  border: 1px solid hsl(214deg 100% 65%) !important;
   padding: 5px;
   width: 60px;
   height: 60px;
@@ -84,7 +85,7 @@
 }
 
 .icon-slide a {
-  color: rgb(1, 167, 18) !important;
+  color: hsl(214deg 100% 65%) !important;
 }
 
 

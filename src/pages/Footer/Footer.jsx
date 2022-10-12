@@ -6,8 +6,8 @@ const Footer = () => {
         <div className='footer'>
 
             <div className='left-footer'>
-                <h5 className='name'>JOSE ESAU MARTINEZ CONTRERAS</h5>
-                <h6>&copy; Derechos reservados</h6>
+                <h5 className='name'>RECAWI</h5>
+                <h6>&copy;Derechos reservados</h6>
             </div>
 
             <div className='right-footer'>

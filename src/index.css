@@ -10,8 +10,8 @@ body {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87) !important;
   background-color: #212121 !important;
-  /* margin: 0; */
-  /* border: 0; */
+  margin: 0;
+  border: 0;
   /* overflow: hidden; */
 }
 

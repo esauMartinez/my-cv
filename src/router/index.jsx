@@ -28,8 +28,6 @@ export const CreateRoutes = () => {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App/>} />
-        <Route path='experience' element={<Experience/>} />
-        <Route path='contact' element={<Contact/>} />
       </Routes>
     </BrowserRouter>
   )

@@ -5,7 +5,7 @@
 }
 
 .my-btn-primary {
-    background-color: rgb(1, 167, 18) !important;
+    background-color: hsl(214deg 100% 65%) !important;
 }
 
 .my-btn-primary:hover {

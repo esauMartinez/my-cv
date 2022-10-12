@@ -13,7 +13,7 @@ const Home = () => {
           className='title animate__animated animate__slideInUp'>
           <h1 
             className='text-center'>
-              JOSE ESAU MARTINEZ CONTRERAS
+              RECAWI
           </h1>
           <h2>
             Desarrollador WEB
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div 
           className='icon-slide animate__animated animate__pulse animate__infinite'>
-          <a href={"#section-experience"}>
+          <a href={"#section-services"}>
             <BsChevronDoubleDown/>
           </a>
         </div>
