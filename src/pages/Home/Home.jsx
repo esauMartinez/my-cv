@@ -16,7 +16,7 @@ const Home = () => {
               RECAWI
           </h1>
           <h2>
-            Desarrollador WEB
+            Desarrollo e implementacion de soluciones informaticas
           </h2>
         </div>
         <div 
