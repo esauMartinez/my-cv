@@ -18,7 +18,7 @@ const Services = () => {
         // Facturación electrónica
         <section id='section-services' className="timeline">
             <div className="tl-item">
-                <div className="tl-bg" style={{'background-image': 'url(../../../public/development.jpg)'}}></div>
+                <div className="tl-bg" id='tl-bg-development'></div>
                 <div className="tl-year">
                     <p className="f2 heading--sanSerif">Desarrollo</p>
                 </div>
