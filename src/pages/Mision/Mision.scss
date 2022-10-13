@@ -38,3 +38,17 @@
     text-align: center;
     font-size: 1.5rem !important;
 }
+
+
+@media only screen and (max-width: 900px) {
+    #section-mision div h2 {
+        text-align: center;
+        font-size: 1rem !important;
+        margin-bottom: 3rem;
+    }
+    
+    #section-mision div p {
+        text-align: center;
+        font-size: 1rem !important;
+    }
+}
