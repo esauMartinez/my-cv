@@ -27,7 +27,7 @@ body {
 
 .section-container {
   height: 100vh;
-  /* overflow: auto;   */
+  overflow: auto;  
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }

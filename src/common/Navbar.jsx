@@ -6,13 +6,16 @@ const Navbar = () => {
     const [isShowSidenav, setIsShowSidenav] = useState(true)
     const paths = [
         { id:'1', name: 'Inicio', path: '#section-home' },
-        { id:'2', name: 'Servicios', path: '#section-services' },
+        { id:'2', name: 'Nosotros', path: '#section-about' },
+        { id:'3', name: 'Mision y Vision', path: '#section-mision' },
+        { id:'4', name: 'Servicios', path: '#section-services' },
         { id:'5', name: 'Contacto', path: '#section-contact' },
     ]
 
     document.addEventListener('scroll', (e) => {
         if (window.scrollY !== 0) {
-            document.querySelector('.my-navbar').style.backgroundColor = 'hsl(0deg 0% 42%)'
+            document.querySelector('.my-navbar').style.backgroundColor = ''
+            // document.querySelector('.my-navbar').style.backgroundColor = 'hsl(0deg 0% 42%)'
         } else {
             document.querySelector('.my-navbar').style.backgroundColor = ''
         }

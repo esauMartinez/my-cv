@@ -25,8 +25,10 @@ const Services = () => {
                 <div className="tl-content">
                     <h1>Desarrollo de software</h1>
                     <p>
-                        Desarrollo e implementacion de software a la medida <br />
-                        Solución para Timbrado de carta porte (ramo transportista)
+                        Desarrollo e implementacion de software a la medida. <br />
+                        Solución para Timbrado de carta porte (ramo transportista). <br />
+                        Hospedaje web. <br />
+                        Renta de domino web. <br />
                     </p>
                 </div>
             </div>
@@ -38,7 +40,11 @@ const Services = () => {
                 <div className="tl-content">
                     <h1 className="f3 text--accent ttu">Soporte y administración de servidores</h1>
                     <p>
-                        
+                        Soporte y administración de sitios web. <br />
+                        Soporte a equipo de cómputo y de impresión. <br />
+                        Venta de equipo de cómputo e impresión. <br />
+                        Correo electrónico. <br />
+                        Consumibles para impresora, pc, etc. <br />
                     </p>
                 </div>
             </div>
@@ -50,7 +56,8 @@ const Services = () => {
                 <div className="tl-content">
                     <h1 className="f3 text--accent ttu">Instalación de CCTV</h1>
                     <p>
-
+                        Instalación de cableado estructurado.
+                        Instalaciones de red.
                     </p>
                 </div>
             </div>

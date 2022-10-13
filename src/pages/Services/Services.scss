@@ -79,11 +79,15 @@
     opacity: 0;
 
     h1 {
-        font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
+        // font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         color: #1779cf;
-        font-size: 1.44rem;
+        font-size: 2rem;
         font-weight: normal;
+    }
+
+    p {
+        font-size: 1.5rem;
     }
 }
 
@@ -98,7 +102,7 @@
 
     p {
         font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif !important;
-        font-size: 1.728rem !important;
+        font-size: 2rem !important;
         line-height: 0 !important;
     }
 }

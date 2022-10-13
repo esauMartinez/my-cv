@@ -1,0 +1,40 @@
+#section-mision {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#section-mision::before {
+    content: "";
+    background-image: url('../../../public/mision.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    background-attachment: fixed;
+}
+
+#section-mision div {
+    max-width: 70%;
+    background-color: rgb(25, 25, 25);
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+
+#section-mision div h2 {
+    text-align: center;
+    font-size: 3rem !important;
+    margin-bottom: 3rem;
+}
+
+#section-mision div p {
+    text-align: center;
+    font-size: 1.5rem !important;
+}

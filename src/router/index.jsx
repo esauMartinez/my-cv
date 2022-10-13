@@ -1,8 +1,5 @@
 import { BrowserRouter, createBrowserRouter, createRoutesFromElements, Route, Router, Routes } from 'react-router-dom';
 import App from '../App';
-import Navbar from '../common/Navbar';
-import Contact from '../pages/Contact/Contact';
-import Experience from '../pages/Experience/Experience';
 
 
 

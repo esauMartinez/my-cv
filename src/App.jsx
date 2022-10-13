@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react'
 import Contact from './pages/Contact/Contact'
-import Experience from './pages/Experience/Experience'
 import Home from './pages/Home/Home'
 import Footer from './pages/Footer/Footer'
 import Navbar from './common/Navbar'
 import { BsChevronDoubleUp } from 'react-icons/bs'
 import Services from './pages/Services/Services'
+import About from './pages/About/About'
+import Mision from './pages/Mision/Mision'
+import Vision from './pages/Vision/Vision'
 
 const App = () => {
     // document.addEventListener('scroll', (e) => {
@@ -19,11 +21,12 @@ const App = () => {
     return (
         <Fragment>
             {/* <div className='section-container'> */}
-                <Navbar/>
+                {/* <Navbar/> */}
                 <Home/>
+                <About/>
+                <Mision/>
+                <Vision/>
                 <Services/>
-                {/* <Experience/> */}
-                {/* <Formation/> */}
                 <Contact/>
                 <Footer/>
             {/* </div> */}

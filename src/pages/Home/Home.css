@@ -54,7 +54,7 @@
     width: 0;
   }
   to {
-    width: 50%;
+    width: 25%;
   }
 }
 
@@ -96,6 +96,7 @@
 
   .title h2 {
     font-size: 1em !important;
+    text-align: center;
   }
 
   .icon-slide img {

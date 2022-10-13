@@ -16,12 +16,12 @@ const Home = () => {
               RECAWI
           </h1>
           <h2>
-            Desarrollo e implementacion de soluciones informaticas
+            Desarrollo de soluciones informaticas
           </h2>
         </div>
         <div 
           className='icon-slide animate__animated animate__pulse animate__infinite'>
-          <a href={"#section-services"}>
+          <a href={"#section-about"}>
             <BsChevronDoubleDown/>
           </a>
         </div>

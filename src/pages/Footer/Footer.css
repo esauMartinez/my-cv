@@ -16,6 +16,8 @@
 .right-footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-footer p {
@@ -24,6 +26,10 @@
     padding: 10px 20px;
     margin: 5px 0px !important;
     color: rgb(52 51 51);
+}
+
+.right-footer p:hover {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 900px) {
